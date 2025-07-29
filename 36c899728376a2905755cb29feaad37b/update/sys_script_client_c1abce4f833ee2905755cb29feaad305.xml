@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Automation input login user to there.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>new record </messages>
+        <name>Set Ask User from login user</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	if(g_form.isNewRecord()){
+		g_form.setValue('ask_user', g_user.userID);
+	}else{
+		var apv_user = g_form.getValue('request_for');
+		if( apv_user == g_user.userID){
+			g_form.setReadOnly('request_for', true);
+			g_form.setReadOnly('time_limit', true);
+			g_form.setReadOnly('shopping', true);
+			//set state to disply only Aprroved and Rejected.???
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 07:37:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1abce4f833ee2905755cb29feaad305</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Ask User from login user</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>sys_script_client_c1abce4f833ee2905755cb29feaad305</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2025-07-24 07:48:42</sys_updated_on>
+        <table>x_1782169_ask_sh_0_to_shopping</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

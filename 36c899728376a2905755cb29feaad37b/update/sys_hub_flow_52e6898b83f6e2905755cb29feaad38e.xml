@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>due_date_reminder</internal_name>
+        <label_cache>[{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.request_for.email","label":"2 - For Each➛To Shopping Record➛Request for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":["ah_to"]}},{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.ask_user.email","label":"2 - For Each➛To Shopping Record➛Ask user➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":["ah_cc"]}},{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.sys_id","label":"2 - For Each➛To Shopping Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1782169_ask_sh_0_to_shopping","column_name":"sys_id","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":[null]}},{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.sys_class_name","label":"2 - For Each➛To Shopping Record➛Class","reference":"","reference_display":"Class","type":"sys_class_name","base_type":"sys_class_name","parent_table_name":"x_1782169_ask_sh_0_to_shopping","column_name":"sys_class_name","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":[null]}},{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.number","label":"2 - For Each➛To Shopping Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1782169_ask_sh_0_to_shopping","column_name":"number","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":[null]}},{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.request_for.first_name","label":"2 - For Each➛To Shopping Record➛Request for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":[null]}},{"name":"b3d7ef73-8c5d-4451-82b9-61b7274b752d.item","label":"2 - For Each➛To Shopping Record","reference":"x_1782169_ask_sh_0_to_shopping","reference_display":"To Shopping Record","type":"reference","base_type":"reference","usedInstances":{"bfe4b084-0518-4a24-ae7d-71766b721f01":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b6dd83f6-4528-4a39-999a-03c9921ddc0d.Records","label":"1 - Look Up Records➛To Shopping Records","reference":"x_1782169_ask_sh_0_to_shopping","reference_display":"To Shopping Records","type":"records","base_type":"records","usedInstances":{"b3d7ef73-8c5d-4451-82b9-61b7274b752d":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Due Date Reminder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 02:34:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52e6898b83f6e2905755cb29feaad38e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Due Date Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>sys_hub_flow_52e6898b83f6e2905755cb29feaad38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 03:40:02</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=52e6898b83f6e2905755cb29feaad38e^sys_idNOT IN5ae6898b83f6e2905755cb29feaad38e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>52e6898b83f6e2905755cb29feaad38e</id>
+        <name>Due Date Reminder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 02:34:14</sys_created_on>
+        <sys_id>5ae6898b83f6e2905755cb29feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 02:34:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5ae6898b83f6e2905755cb29feaad38e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=52e6898b83f6e2905755cb29feaad38e^sys_idNOT IN8b7d01c3833ae2905755cb29feaad3a4"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Due Date Reminder">52e6898b83f6e2905755cb29feaad38e</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:02:57</sys_created_on>
+        <sys_id>8b7d01c3833ae2905755cb29feaad3a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:07:17</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXU/cMBD8K5Wfj8i5o4XmDQmdxEOLVE68IBRt7M2dpfVHHecgIP4768ScWlrLLzvrnZ0Z+eFVEHRIohE7Y1GshHEJowPaTQEZ3ZPR2KalZ8FpSD5OoklxxJXoo7c7tIEg8eMeaGDQR41RNLWUK3EEGvFuGm40czGDA5tZC9/c5bL+fiHPZM33i6wbKflyVx0M6YhONA+PKxEg8mzKzK+fWiaTb0Cfo1ZSbdZ8pFxfntfdt01Xr/UGEL8y4Senf2tJ//H7pxN8Tug06pPNf8KICPrW0XR6ceAsF9sWngfzgoUqYo8sXuHSPJWtNgNHOS2wOnij8DYk492CJOiozChPo3U/Fwdca+xhpHRfAmVkHJgPQ9acVRRJ/d3BP/36WLg1bjZYmuQV0KmClKLpxoRDThwJLRO1FkIwbt+G6I9mHmYttppjq3ryT7x0MHtXgcrCK44Iqi3j1zN8D9FkFz+YhoffZvft7zHvXXwUxe1imh+UULYGqXyiQUUT0hUvOH78urfHd5inai/KAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=52e6898b83f6e2905755cb29feaad38e^sys_idNOT IN1c4495cb833ae2905755cb29feaad3f3,4f7d01c3833ae2905755cb29feaad3a5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Due Date Reminder">52e6898b83f6e2905755cb29feaad38e</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b3d7ef73-8c5d-4451-82b9-61b7274b752d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>1c4495cb833ae2905755cb29feaad3f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:32:32</sys_updated_on>
+        <ui_id>bfe4b084-0518-4a24-ae7d-71766b721f01</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Due Date Reminder">52e6898b83f6e2905755cb29feaad38e</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:02:57</sys_created_on>
+        <sys_id>4f7d01c3833ae2905755cb29feaad3a5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 03:40:02</sys_updated_on>
+        <ui_id>b6dd83f6-4528-4a39-999a-03c9921ddc0d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VX23LbNhD9FQyfElelKcmWHfdJk9RNHhJPJU36YLkckAQlNCDAAKAu9ujfu7iQki3ZlVWnTTLjaLBY7J7dPbsAr+8CmgUXwXl+EkW4fXp+FkXdbhT1et0Ut5Ok20uTKDlJglbAcUFAU+OEEVjOMKvMehG3z8477d6bGKsvsZrGUawF/IqypHwCihlVJcPLz15/JNBwvZlOKcsk4cHF9U0rKLEEJ5rI4OLuwZZeliRmOCHM2DAY0CcDqLU3/nuHt+MxDuplzJ1pITODJWoFZKEJzwi4yjFTpBUUmGdYC7lsJJLg7IqztWBKuQaLgVFeKHoL5s8jo5cTCCslbq9Zxj5RTpxOBU3JVamp4E7igLpNwaqCf3IBmBSTHFdM1ykGSaXAHikNZgPCI8oh8/NB7fCSchue32QixaxZYa0lTSpNlKkFYaQAQ3GBbeHiUooZtYcBSxFOGCzCnIk5OFV0wkOcGuAhpAiHlyB/Z8WfsaQmio9gBg4DIMqg2rFLuhKVtFmZxSmrlN2QmCtnK1jZXMVfK4PSRe3ji12KQEGlkpa6DwdmxIeyau1F8dNoTYlU8Iwan2qD59tMPpi+bzft74tt5+FdgD2R78k8kdsvRmSA+z9RWcvq+2PyP3HTBbxFUBeLk1nOrGsGq6d0g+OjMT866qcpUQoZXMd9CxQZoKhSEBvSU4LyLLYSkfxFUh2ioTWACugvJImuJEcYWY6HyFi8MkxBvCoS+KEKiTxXRKNkiX5qI8rRr1IKid4DaZhxMSQuPRbMDFNmJ7OwtVbI0wBVJQArJUA1Z8ZBOA4QzqFRanjmOFngomTkAtBIBPeH1JDqFI0raImsVgyhlpMJkWFaSSi9Dq2iqZWNC7z+Ymz5yBorVmj+BuRrRQEI+s0UekBS6AwEFBLQEr9XRC4hKQrQAnFQDcieDbCtg0NjavHnlufhqD8YDf/4MHoPXNPjwDg9HvMxp/krSF1ZaRUqjTXxMfnIzE/nbFglRUE1ydzSSXvu//qwpgUMEWr0nAkPB00U8HOp+hPx6ufOa/R6zO/GHME/mJ5zyLJXM7AB1IpAX+xUsB1jNILVqpmb6dmTs+l0PYaUSYhr6G8zOC8pYdm9e38PcPVhx+xk+RhePzdz4+PBA6Dzwz8AvsupCYCy2OWbchgn9v0FQA8dp/fv++jpO/XNAx7Y8q9Za2VYpdvsxUgLdHv45W/rWvN3D5D1wSEgQiOHcgfw+tqvzXvqdl+Mut3O86gLxLm+a9A3WduR4PqZbUpX698affxQ30zbjefM6qah/tvDfLaf67NjfD7oze6zmnOTWW7n3SMEe+FH/CPN1vqW3T2Fo95f7Jo1ntNsQvTae62VCT3H7Muufc+upodseP/6g+Dkyd7rtdd9Bj0Qw7sASrX5RdCGN/D2eGi3nPiw6fCBazKxydsXYn3yI16gQYNxJ3A/Imjjw3P65AU/C/6L661O/M7uqfP/Q3wBH0rhm78BZ+CLw7gRAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=52e6898b83f6e2905755cb29feaad38e^sys_idNOT INd84495cb833ae2905755cb29feaad3f0"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9c4495cb833ae2905755cb29feaad3ef</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Due Date Reminder">52e6898b83f6e2905755cb29feaad38e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>d84495cb833ae2905755cb29feaad3f0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 03:40:02</sys_updated_on>
+        <ui_id>b3d7ef73-8c5d-4451-82b9-61b7274b752d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51Sy27jMAz8F50Tw4+sEedWoCjQw7ZAW/SyKAxaohNhZUkryUldw/++VOykRY892RySwxmRIzN9sH3wL+bGe7nXbPfnbcWkjhj9j0xDh2zHZMDOsxU7gupjPI5NKcS2aMv15le+XW+gqNZVVcE6LXhV5ZkQPBXJE3LjhJ8mahXSWwXD688Z+EEq4XARacGRtoCO7cZvqTBYrBU0qGjQwkD9UlCYVaKtsrTiRV4WeZrm203WlEWT5aIAFCXVXTrvF9Pf3iCyU+iuvPSJKvJ0xfA9oBZIg1pQHlesAy0gGDewXXA9AQ5BPGo1XCsOUgeiY7H23csP4s7SNBa2SI44zslrWC8POcP8YCTHRxuk0TMSoFFLDzeq7/TDLD+uAFvoVbisgJDeEx/aqDmqWCS1zwdzeroMvJP67G9JKsNBXSMIwcmmD+jjGlBhR0R1B9ZKva+tM0d5biYtXbJXFCStMicaGs8tAR6FJ/REkNwRfnuGX8HJ6OI30VDzdHZf/+vj3NnHorieTVOB507acEN0R1zETW/xXmcmPx+GQC49DXyJ2P3lymNioCVL/hU6Gfc3Sv3Epv9z23kILwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=52e6898b83f6e2905755cb29feaad38e^sys_idNOT IN184495cb833ae2905755cb29feaad3f5,544495cb833ae2905755cb29feaad3f5,5c4495cb833ae2905755cb29feaad3f4,9c4495cb833ae2905755cb29feaad3f5,d84495cb833ae2905755cb29feaad3f5"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6898b83f6e2905755cb29feaad38e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.sys_class_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>184495cb833ae2905755cb29feaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:32:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>61b75853-db3c-4859-ae44-f8e568877507</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6898b83f6e2905755cb29feaad38e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>544495cb833ae2905755cb29feaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:32:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6735d748-979b-4bc3-a9ac-9303a798aff9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6898b83f6e2905755cb29feaad38e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.request_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>5c4495cb833ae2905755cb29feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:32:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2b210b68-ff54-413f-8bcf-34c05b7d18c0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6898b83f6e2905755cb29feaad38e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>9c4495cb833ae2905755cb29feaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:32:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b9233474-e34e-495c-8576-1f9ab9ab1199</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6898b83f6e2905755cb29feaad38e</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b3d7ef73-8c5d-4451-82b9-61b7274b752d.item.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 03:32:32</sys_created_on>
+        <sys_id>d84495cb833ae2905755cb29feaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 03:32:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b36d6a99-3475-4840-9b86-40ba50e0495b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=52e6898b83f6e2905755cb29feaad38e"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=52e6898b83f6e2905755cb29feaad38e"/>
+</record_update>

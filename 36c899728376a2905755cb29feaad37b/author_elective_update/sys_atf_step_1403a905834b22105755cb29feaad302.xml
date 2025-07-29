@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Click a UI Action</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>1403a905834b22105755cb29feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>sys_atf_step_1403a905834b22105755cb29feaad302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <table>x_1782169_ask_sh_0_to_shopping</table>
+        <test display_value="My Shopping">8242a9c1834b22105755cb29feaad3c9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=1403a905834b22105755cb29feaad302"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1403a905834b22105755cb29feaad302</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>1003a905834b22105755cb29feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <value/>
+        <variable display_value="Assert type">7600f16353e0220002c6435723dc34d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1403a905834b22105755cb29feaad302</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>1c03a905834b22105755cb29feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <value/>
+        <variable display_value="Declarative Action">51547e3953212110248dddeeff7b126b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1403a905834b22105755cb29feaad302</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>5803a905834b22105755cb29feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <value>ui_action</value>
+        <variable display_value="Action Type">334ea2f153212110248dddeeff7b1255</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1403a905834b22105755cb29feaad302</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>9403a905834b22105755cb29feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">535cb5ab53233300f06fddeeff7b1247</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1403a905834b22105755cb29feaad302</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>d003a905834b22105755cb29feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <value/>
+        <variable display_value="UI action">7c5f6d2353e0220002c6435723dc34f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1403a905834b22105755cb29feaad302</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>dc03a905834b22105755cb29feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <value>x_1782169_ask_sh_0_to_shopping</value>
+        <variable display_value="Table">3eee292353e0220002c6435723dc343c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</application>
+        <file_path/>
+        <instance_id>e4382835ebd5aa9c3a48f459bad0cdeb</instance_id>
+        <instance_name>dev343441</instance_name>
+        <name>sys_atf_step_1403a905834b22105755cb29feaad302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description/><display_name>Click a UI Action</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>1403a905834b22105755cb29feaad302</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Click a UI Action</sys_name><sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package><sys_policy/><sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope><sys_update_name>sys_atf_step_1403a905834b22105755cb29feaad302</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><table>x_1782169_ask_sh_0_to_shopping</table><test display_value="My Shopping">8242a9c1834b22105755cb29feaad3c9</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=1403a905834b22105755cb29feaad302"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1403a905834b22105755cb29feaad302</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>1003a905834b22105755cb29feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><value/><variable display_value="Assert type">7600f16353e0220002c6435723dc34d5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1403a905834b22105755cb29feaad302</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>1c03a905834b22105755cb29feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><value/><variable display_value="Declarative Action">51547e3953212110248dddeeff7b126b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1403a905834b22105755cb29feaad302</document_key><order>150</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>5803a905834b22105755cb29feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><value>ui_action</value><variable display_value="Action Type">334ea2f153212110248dddeeff7b1255</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1403a905834b22105755cb29feaad302</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>9403a905834b22105755cb29feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">535cb5ab53233300f06fddeeff7b1247</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1403a905834b22105755cb29feaad302</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>d003a905834b22105755cb29feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><value/><variable display_value="UI action">7c5f6d2353e0220002c6435723dc34f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1403a905834b22105755cb29feaad302</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:44:50</sys_created_on><sys_id>dc03a905834b22105755cb29feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:44:50</sys_updated_on><value>x_1782169_ask_sh_0_to_shopping</value><variable display_value="Table">3eee292353e0220002c6435723dc343c</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>606072242</payload_hash>
+        <record_name>Click a UI Action</record_name>
+        <reverted_from/>
+        <source>f6c899728376a2905755cb29feaad37f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:44:50</sys_created_on>
+        <sys_id>9803a905834b22105755cb29feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198506bac430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:44:50</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>9c03a905124b2210c1b0778676b79d05</update_guid>
+        <update_guid_history>9c03a905124b2210c1b0778676b79d05:606072242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:45:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>79717826aab84192b2ffa925c058e764</sys_id>
+        <sys_metadata>1403a905834b22105755cb29feaad302</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_scope_delete display_value="">12b0c0fe14af4e9d9b83395d915605b9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_1403a905834b22105755cb29feaad302</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_1403a905834b22105755cb29feaad302">9803a905834b22105755cb29feaad306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:45:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

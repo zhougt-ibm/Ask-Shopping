@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e74a59f28376a2905755cb29feaad33a" label="To Shopping" max_length="40" name="x_1782169_ask_sh_0_to_shopping" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element display="true" label="Shopping" mandatory="true" max_length="150" name="shopping" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Submmited" sequence="0" value="submmited"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+            </choice>
+        </element>
+        <element label="Request for" mandatory="true" max_length="32" name="request_for" reference="sys_user" type="reference"/>
+        <element label="Comment" max_length="150" name="comment" type="string"/>
+        <element label="Time limit" mandatory="true" max_length="40" name="time_limit" type="glide_date"/>
+        <element label="Ask user" max_length="32" name="ask_user" read_only="true" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="ask_user"/>
+        </index>
+        <index name="index2">
+            <element name="request_for"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

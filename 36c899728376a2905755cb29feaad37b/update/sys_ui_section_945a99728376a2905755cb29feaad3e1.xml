@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="To Shopping" section_id="945a99728376a2905755cb29feaad3e1" sys_domain="global" table="x_1782169_ask_sh_0_to_shopping" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:59:13</sys_created_on>
+            <sys_id>fe23e1fe8376a2905755cb29feaad354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="To Shopping" display_value="To Shopping" name="x_1782169_ask_sh_0_to_shopping" sys_domain="global" view="Default view">945a99728376a2905755cb29feaad3e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:59:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ask_user</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:59:13</sys_created_on>
+            <sys_id>f623e1fe8376a2905755cb29feaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="To Shopping" display_value="To Shopping" name="x_1782169_ask_sh_0_to_shopping" sys_domain="global" view="Default view">945a99728376a2905755cb29feaad3e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:59:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_for</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:59:13</sys_created_on>
+            <sys_id>fe23e1fe8376a2905755cb29feaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="To Shopping" display_value="To Shopping" name="x_1782169_ask_sh_0_to_shopping" sys_domain="global" view="Default view">945a99728376a2905755cb29feaad3e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:59:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:59:13</sys_created_on>
+            <sys_id>f623e1fe8376a2905755cb29feaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="To Shopping" display_value="To Shopping" name="x_1782169_ask_sh_0_to_shopping" sys_domain="global" view="Default view">945a99728376a2905755cb29feaad3e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:59:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:59:13</sys_created_on>
+            <sys_id>fe23e1fe8376a2905755cb29feaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="To Shopping" display_value="To Shopping" name="x_1782169_ask_sh_0_to_shopping" sys_domain="global" view="Default view">945a99728376a2905755cb29feaad3e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:59:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_limit</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:59:13</sys_created_on>
+            <sys_id>f623e1fe8376a2905755cb29feaad357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="To Shopping" display_value="To Shopping" name="x_1782169_ask_sh_0_to_shopping" sys_domain="global" view="Default view">945a99728376a2905755cb29feaad3e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:59:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>To Shopping</caption>
+            <header>false</header>
+            <name>x_1782169_ask_sh_0_to_shopping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-21 09:20:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>945a99728376a2905755cb29feaad3e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1782169_ask_sh_0_to_shopping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+            <sys_update_name>sys_ui_section_945a99728376a2905755cb29feaad3e1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-21 09:57:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

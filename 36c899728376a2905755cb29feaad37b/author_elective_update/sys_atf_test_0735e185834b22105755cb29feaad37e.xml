@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="My Shopping">8242a9c1834b22105755cb29feaad3c9</copied_from>
+        <description>Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form in this table
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Validates field values on the current form.
+5. Edit the mandatory, non mandatory, read only, non read only, visible and non visible fields.
+6. Edit the visible, not visible fields of the form.
+7. Clicks a UI action on the current form
+8. Submits the current form.
+</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>My Shopping copy</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>0735e185834b22105755cb29feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Shopping copy</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>sys_atf_test_0735e185834b22105755cb29feaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=0735e185834b22105755cb29feaad37e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</application>
+        <file_path/>
+        <instance_id>e4382835ebd5aa9c3a48f459bad0cdeb</instance_id>
+        <instance_name>dev343441</instance_name>
+        <name>sys_atf_test_0735e185834b22105755cb29feaad37e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="My Shopping">8242a9c1834b22105755cb29feaad3c9</copied_from><description>Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form in this table
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Validates field values on the current form.
+5. Edit the mandatory, non mandatory, read only, non read only, visible and non visible fields.
+6. Edit the visible, not visible fields of the form.
+7. Clicks a UI action on the current form
+8. Submits the current form.
+</description><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>My Shopping copy</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:54:35</sys_created_on><sys_id>0735e185834b22105755cb29feaad37e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Shopping copy</sys_name><sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package><sys_policy/><sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope><sys_update_name>sys_atf_test_0735e185834b22105755cb29feaad37e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:54:35</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=0735e185834b22105755cb29feaad37e"/></record_update>]]></payload>
+        <payload_hash>-1299178212</payload_hash>
+        <record_name>My Shopping copy</record_name>
+        <reverted_from/>
+        <source>f6c899728376a2905755cb29feaad37f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>0735a9c5834b22105755cb29feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19850749a570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <type>Test</type>
+        <update_guid>0b35a9c53a4b2210b47157ae36353bb9</update_guid>
+        <update_guid_history>0b35a9c53a4b2210b47157ae36353bb9:-1299178212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 01:48:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>35a552b5238f4e79a03fbb91dabfd771</sys_id>
+        <sys_metadata>0735e185834b22105755cb29feaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Shopping copy</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_scope_delete display_value="">12b0c0fe14af4e9d9b83395d915605b9</sys_scope_delete>
+        <sys_update_name>sys_atf_test_0735e185834b22105755cb29feaad37e</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_0735e185834b22105755cb29feaad37e">0735a9c5834b22105755cb29feaad3ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 01:48:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

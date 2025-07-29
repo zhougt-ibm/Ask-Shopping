@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1782169_ask_sh_0.ShoppingUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Check it. Selected requst user is in new role（priviege）</description>
+        <mobile_callable>false</mobile_callable>
+        <name>ShoppingUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ShoppingUtils = Class.create();
+ShoppingUtils.prototype = {
+    initialize: function() {
+    },
+	hasThisRole: function(userId1, role1){
+		var userRecord = new GlideRecord('sys_user');
+		userRecord.get(userId1);
+		var roles = userRecord.roles + '';
+		var list = roles.split(',');
+		var i = 0;
+		var len = list.length;
+		while(i < len){
+			if (list[i] == role1 ){
+				break;
+			}
+			i++;
+		}
+		if (i < len) {
+			return true;
+		}else{
+			return false;
+		}
+	},
+
+    type: 'ShoppingUtils'
+};
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 09:08:29</sys_created_on>
+        <sys_id>395f1e0f83bee2905755cb29feaad358</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>ShoppingUtils</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>sys_script_include_395f1e0f83bee2905755cb29feaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 06:15:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

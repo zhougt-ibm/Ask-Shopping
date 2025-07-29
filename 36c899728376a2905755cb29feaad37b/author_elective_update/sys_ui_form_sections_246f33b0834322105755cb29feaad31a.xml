@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="246f33b0834322105755cb29feaad31a" sys_domain="global" table="x_1782169_ask_sh_0_to_shopping" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1782169_ask_sh_0_to_shopping</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-28 02:30:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>246f33b0834322105755cb29feaad31a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1782169_ask_sh_0_to_shopping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_246f33b0834322105755cb29feaad31a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-28 02:30:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="zhou_test" name="zhou_test">bc4fbb70834322105755cb29feaad361</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</application>
+        <file_path/>
+        <instance_id>e4382835ebd5aa9c3a48f459bad0cdeb</instance_id>
+        <instance_name>dev343441</instance_name>
+        <name>sys_ui_form_sections_246f33b0834322105755cb29feaad31a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="246f33b0834322105755cb29feaad31a" sys_domain="global" table="x_1782169_ask_sh_0_to_shopping" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1782169_ask_sh_0_to_shopping</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 02:30:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>246f33b0834322105755cb29feaad31a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1782169_ask_sh_0_to_shopping</sys_name><sys_overrides/><sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package><sys_policy/><sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope><sys_update_name>sys_ui_form_sections_246f33b0834322105755cb29feaad31a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 02:30:10</sys_updated_on><sys_user/><view display_value="zhou_test" name="zhou_test">bc4fbb70834322105755cb29feaad361</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1418311758</payload_hash>
+        <record_name>To Shopping</record_name>
+        <reverted_from/>
+        <source>f6c899728376a2905755cb29feaad37f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 02:30:10</sys_created_on>
+        <sys_id>858ff3b0834322105755cb29feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1984eddb8bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 02:30:10</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>c98ff3b00f43221085c6a19ffb9b0846</update_guid>
+        <update_guid_history>c98ff3b00f43221085c6a19ffb9b0846:-1418311758</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 02:38:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>6196084c13694c94bc868f2528710de1</sys_id>
+        <sys_metadata>246f33b0834322105755cb29feaad31a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1782169_ask_sh_0_to_shopping</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_parent display_value="To Shopping">e74a59f28376a2905755cb29feaad33a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_scope_delete display_value="">12b0c0fe14af4e9d9b83395d915605b9</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_246f33b0834322105755cb29feaad31a</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_246f33b0834322105755cb29feaad31a">858ff3b0834322105755cb29feaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 02:38:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

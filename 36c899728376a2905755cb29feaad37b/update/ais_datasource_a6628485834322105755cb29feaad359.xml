@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>To Shopping Table</name>
+        <retention_policy/>
+        <source>x_1782169_ask_sh_0_to_shopping</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 02:42:50</sys_created_on>
+        <sys_id>a6628485834322105755cb29feaad359</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>To Shopping Table</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>ais_datasource_a6628485834322105755cb29feaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 02:42:50</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

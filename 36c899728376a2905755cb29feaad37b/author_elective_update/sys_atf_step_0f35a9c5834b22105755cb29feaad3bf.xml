@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Open a New Form">98036905834b22105755cb29feaad3ea</copied_from>
+        <description>Open a new 'To Shopping' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>0f35a9c5834b22105755cb29feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_update_name>sys_atf_step_0f35a9c5834b22105755cb29feaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <table>x_1782169_ask_sh_0_to_shopping</table>
+        <test display_value="My Shopping copy">0735e185834b22105755cb29feaad37e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=0f35a9c5834b22105755cb29feaad3bf"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f35a9c5834b22105755cb29feaad3bf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>0b35a9c5834b22105755cb29feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f35a9c5834b22105755cb29feaad3bf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>4335a9c5834b22105755cb29feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <value>x_1782169_ask_sh_0_to_shopping</value>
+        <variable display_value="Table">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f35a9c5834b22105755cb29feaad3bf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>8f35a9c5834b22105755cb29feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <value>record</value>
+        <variable display_value="Record path">3a662f60a3023110571967d1361e6134</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f35a9c5834b22105755cb29feaad3bf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>cb35a9c5834b22105755cb29feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <value/>
+        <variable display_value="View">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=0f35a9c5834b22105755cb29feaad3bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</application>
+        <file_path/>
+        <instance_id>e4382835ebd5aa9c3a48f459bad0cdeb</instance_id>
+        <instance_name>dev343441</instance_name>
+        <name>sys_atf_step_0f35a9c5834b22105755cb29feaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Open a New Form">98036905834b22105755cb29feaad3ea</copied_from><description>Open a new 'To Shopping' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:54:35</sys_created_on><sys_id>0f35a9c5834b22105755cb29feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package><sys_policy/><sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope><sys_update_name>sys_atf_step_0f35a9c5834b22105755cb29feaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:54:35</sys_updated_on><table>x_1782169_ask_sh_0_to_shopping</table><test display_value="My Shopping copy">0735e185834b22105755cb29feaad37e</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=0f35a9c5834b22105755cb29feaad3bf"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0f35a9c5834b22105755cb29feaad3bf</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:54:35</sys_created_on><sys_id>0b35a9c5834b22105755cb29feaad3c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:54:35</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0f35a9c5834b22105755cb29feaad3bf</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:54:35</sys_created_on><sys_id>4335a9c5834b22105755cb29feaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:54:35</sys_updated_on><value>x_1782169_ask_sh_0_to_shopping</value><variable display_value="Table">bb84ed825320220002c6435723dc3400</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0f35a9c5834b22105755cb29feaad3bf</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:54:35</sys_created_on><sys_id>8f35a9c5834b22105755cb29feaad3c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:54:35</sys_updated_on><value>record</value><variable display_value="Record path">3a662f60a3023110571967d1361e6134</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0f35a9c5834b22105755cb29feaad3bf</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 09:54:35</sys_created_on><sys_id>cb35a9c5834b22105755cb29feaad3c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 09:54:35</sys_updated_on><value/><variable display_value="View">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=0f35a9c5834b22105755cb29feaad3bf"/></record_update>]]></payload>
+        <payload_hash>-114570760</payload_hash>
+        <record_name>Open a New Form</record_name>
+        <reverted_from/>
+        <source>f6c899728376a2905755cb29feaad37f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 09:54:35</sys_created_on>
+        <sys_id>4b35a9c5834b22105755cb29feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19850749ad50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 09:54:35</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4f35a9c5504b2210019d332531a392c2</update_guid>
+        <update_guid_history>4f35a9c5504b2210019d332531a392c2:-114570760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 01:48:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>170a328bb9f6465886f8d3e1eb939a01</sys_id>
+        <sys_metadata>0f35a9c5834b22105755cb29feaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
+        <sys_scope_delete display_value="">12b0c0fe14af4e9d9b83395d915605b9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_0f35a9c5834b22105755cb29feaad3bf</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_0f35a9c5834b22105755cb29feaad3bf">4b35a9c5834b22105755cb29feaad3c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 01:48:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
