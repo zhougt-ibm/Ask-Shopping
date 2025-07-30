@@ -13,26 +13,39 @@
 ClientWayCheckRole.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 	isApvRole:function(){
+		user = this.getParameter('sysparm_userID');
+		role = this.getParameter('sysparm_apvRole');
+	/*
+		gs.info('Ask Shoppping receive: ' + JSON.stringify({
+            param1: user,
+            param2: role
+        }));
+		gs.addInfoMessage('sysparm_userID:' + user);
+		gs.addInfoMessage('sysparm_apvRole:' + role);
+	*/
 		var shutils = new ShoppingUtils();
-		var isAvaila = shutils.hasThisRole(
-			this.getParameter('sysparm_userID'), 
-			this.getParameter('sysparm_apvRole'));
+		var isAvaila = shutils.hasThisRole(user,role);
+
+	/*
+		gs.info('Ask Shoppping return:' + isAvaila );
+		gs.addInfoMessage('Ask Shoppping return:' + isAvaila);
+	*/
 		return isAvaila;
 	},
-	
+
     type: 'ClientWayCheckRole'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-23 02:17:39</sys_created_on>
         <sys_id>013c8617837266905755cb29feaad34c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>ClientWayCheckRole</sys_name>
         <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
         <sys_update_name>sys_script_include_013c8617837266905755cb29feaad34c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-24 02:11:45</sys_updated_on>
+        <sys_updated_on>2025-07-29 07:11:23</sys_updated_on>
     </sys_script_include>
 </record_update>

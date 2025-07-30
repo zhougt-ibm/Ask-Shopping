@@ -11,16 +11,62 @@
         <name>Set Ask User from login user</name>
         <order/>
         <script><![CDATA[function onLoad() {
+
+	var stateNow = g_form.getValue('state');
+	g_form.addInfoMessage('stateNow=' + stateNow);
+
 	//Type appropriate comment here, and begin script below
 	if(g_form.isNewRecord()){
 		g_form.setValue('ask_user', g_user.userID);
+		//Reset state
+		g_form.clearOptions('state');
+		g_form.addOption('state','','--None--');
+		g_form.addOption('state','submmited','Submmited');
+		g_form.setValue('state', stateNow);
 	}else{
+		var ask_user = g_form.getValue('ask_user');
 		var apv_user = g_form.getValue('request_for');
-		if( apv_user == g_user.userID){
+		if( apv_user == g_user.userID ){
 			g_form.setReadOnly('request_for', true);
 			g_form.setReadOnly('time_limit', true);
 			g_form.setReadOnly('shopping', true);
+
 			//set state to disply only Aprroved and Rejected.???
+			if(stateNow == ''){
+				g_form.setReadOnly('state', true);
+			}else if(stateNow == 'submmited'){
+				//Reset state
+				g_form.clearOptions('state');
+				g_form.addOption('state','submmted','Submmited');
+				g_form.addOption('state','approved','Approved');
+				g_form.addOption('state','rejected','Rejected');
+				g_form.setValue('state', stateNow);
+			}else{
+				//Reset state
+				g_form.clearOptions('state');
+				g_form.addOption('state','approved','Approved');
+				g_form.addOption('state','rejected','Rejected');
+				g_form.setValue('state', stateNow);
+			}
+		}else if( ask_user == g_user.userID ){
+			if(stateNow == 'approved' || stateNow == 'rejected' ){
+				g_form.setReadOnly('request_for', true);
+				g_form.setReadOnly('time_limit', true);
+				g_form.setReadOnly('shopping', true);
+				g_form.setReadOnly('state', true);
+				g_form.setReadOnly('comment', true);
+			}else{
+				//Reset state
+				g_form.clearOptions('state');
+				g_form.addOption('state','','--None--');
+				g_form.addOption('state','submmited','Submmited');
+				g_form.setValue('state', stateNow);
+			}
+		}else{
+			g_form.setReadOnly('request_for', true);
+			g_form.setReadOnly('time_limit', true);
+			g_form.setReadOnly('shopping', true);
+			g_form.setReadOnly('state', true);
 		}
 	}
 }]]></script>
@@ -30,15 +76,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c1abce4f833ee2905755cb29feaad305</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Set Ask User from login user</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
         <sys_update_name>sys_script_client_c1abce4f833ee2905755cb29feaad305</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2025-07-24 07:48:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-30 03:13:40</sys_updated_on>
         <table>x_1782169_ask_sh_0_to_shopping</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

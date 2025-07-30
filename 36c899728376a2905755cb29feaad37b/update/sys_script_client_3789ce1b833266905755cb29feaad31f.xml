@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>In Script Include. Check it. Selected user is in new role（priviege）. by ACL?</description>
@@ -20,22 +20,20 @@
 	}
 
 	// Instantiate the GetEmailAddress Script Include 
-	var getEmailAddr = new GlideAjax('ClientWayCheckRole');
-	getEmailAddr.addParam('sysparm_name','isApvRole');
-	getEmailAddr.addParam('sysparm_userID', g_form.getValue('request_for'));
+	var checkRoles = new GlideAjax('ClientWayCheckRole');
+	checkRoles.addParam('sysparm_name','isApvRole');
+	checkRoles.addParam('sysparm_userID', newValue);
 	//approval user need role of priviege
-	//getEmailAddr.addParam('sysparm_apvRole', 'x_1782169_ask_sh_0.priviege');
-	getEmailAddr.addParam('sysparm_apvRole', 'admin');
-	getEmailAddr.getXML(chckRoleAvailability);
+	checkRoles.addParam('sysparm_apvRole', 'x_1782169_ask_sh_0.priviege');
 
-	// When the response is back from the server
-	function chckRoleAvailability(response){
-		var rolesFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
-		if ( rolesFromScriptInclude != true ){
+	checkRoles.getXMLAnswer(function(response){
+		//g_form.addInfoMessage('response=' + response);
+		
+		if ( response != 'true' ){
 			g_form.clearValue('request_for');
 			g_form.addErrorMessage('Not priviege role, Please retry [Request for].');
 		}   
-	}
+	});
 }
 ]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -44,15 +42,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3789ce1b833266905755cb29feaad31f</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Check Approval User Role</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ask Shopping" source="x_1782169_ask_sh_0">36c899728376a2905755cb29feaad37b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ask Shopping">36c899728376a2905755cb29feaad37b</sys_scope>
         <sys_update_name>sys_script_client_3789ce1b833266905755cb29feaad31f</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2025-07-25 05:26:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 07:24:01</sys_updated_on>
         <table>x_1782169_ask_sh_0_to_shopping</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
